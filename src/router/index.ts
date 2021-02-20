@@ -19,7 +19,7 @@ const routes: Array<RouteRecordRaw> = [
       keepAlive: true
     },
     redirect: "home",
-    component: () => import("@/views/Home.vue"),
+    component: () => import("@/App.vue"),
     children
   }
 ];

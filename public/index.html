@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title><%= htmlWebpackPlugin.options.title %></title>
     <style>
       .spinner {
@@ -16,12 +16,11 @@
         bottom: 0px;
         width: 100%;
         height: 100%;
-        background-color: black;
         text-align: center;
         font-size: 10px;
       }
       .spinner > div {
-        margin-top: 540px;
+        margin-top: 50%;
         background-color: #48d1cc;
         height: 30px;
         width: 6px;
@@ -76,19 +75,13 @@
   </head>
   <body>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
-    <div id="app">
-
-      <div class="spinner">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
-      </div>
-    </div>
-    </div>
+    <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>
 </html>
