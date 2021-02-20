@@ -1,9 +1,6 @@
 <template>
   <!--onselectstart="return false" -->
   <div class="container">
-    <div class="Tabbar">
-      <Header></Header>
-    </div>
     <div class="home">
       <RouterView />
     </div>
@@ -11,14 +8,8 @@
 </template>
 
 <script lang="ts">
-import Header from "../components/head/Header2.vue";
-
 import { defineComponent } from "vue";
-export default defineComponent({
-  components: {
-    Header,
-  },
-});
+export default defineComponent({});
 </script>
 
 <style lang="less" scoped>
